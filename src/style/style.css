@@ -2,9 +2,14 @@
   --top-bar-font-size: 	.8125rem;
   --nav-link-font-color: #ff227a;
   --nav-link-font-size: 0.875rem;
-  
 }
 
+.bgImage {
+  position: absolute;
+  margin-left: -300px;
+  margin-top: -71px;
+  z-index: -1;
+}
 
 .container-fluid {
   margin: 0;
@@ -20,7 +25,6 @@
   background: #000;
   font-size: var(--top-bar-font-size);
 }
-
 
 
 .shippingIcon {
@@ -65,7 +69,7 @@
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  margin: 0 0 0 45px;
+  margin: 0 0 0 15px;
   font-size: var(--nav-link-font-size);
   text-align: center;
   position: absolute;
@@ -75,5 +79,49 @@
 .nav-link {
   color: var(--nav-link-font-color) !important;
   font-size: var(--nav-link-font-size);
+}
+
+.products {
+  margin-left: 10.2rem;
+}
+
+.blog {
+  margin-left: 1rem;
+}
+
+.OurNutritionists {
+  margin-left: 1.3rem;
+}
+
+.getStarted {
+  margin-left: 0.7rem;
+}
+
+.bag {
+  margin-left: 1rem;
+}
+
+.navAlign {
+  display: flex !important;
+  justify-content: space-between;
+  flex-wrap: nowrap !important;
+  margin-top: 25px;
+  position: relative !important;
+}
+
+.sixDay {
+  font-size: 3rem;
+  line-height: 3.75rem;
+  position: relative;
+  margin-left: 60rem;
+  margin-top: 5.4rem;
+}
+
+.sweetTreat {
+  position: relative;
+  margin-left: 60rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0px !important;
+  font-weight: 400;
 
 }
