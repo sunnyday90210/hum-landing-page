@@ -2,13 +2,14 @@
   --top-bar-font-size: 	.8125rem;
   --nav-link-font-color: #ff227a;
   --nav-link-font-size: 0.875rem;
+  --primary-pink-color: #ff227a;
 }
 
 .bgImage {
-  position: absolute;
+  position: absolute !important;
   margin-left: -300px;
-  margin-top: -71px;
-  z-index: -1;
+  margin-top: -1px;
+  z-index: -10;
 }
 
 .container-fluid {
@@ -25,7 +26,6 @@
   background: #000;
   font-size: var(--top-bar-font-size);
 }
-
 
 .shippingIcon {
   height: 11px;
@@ -65,7 +65,7 @@
 }
 
 .badge {
-  background-color: #ff227a;
+  background-color: var(--primary-pink-color);
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -79,6 +79,7 @@
 .nav-link {
   color: var(--nav-link-font-color) !important;
   font-size: var(--nav-link-font-size);
+  padding-top: 20px;
 }
 
 .products {
@@ -121,7 +122,174 @@
   position: relative;
   margin-left: 60rem;
   margin-top: 1.5rem;
-  margin-bottom: 0px !important;
   font-weight: 400;
+}
 
+input {
+  width: 200px;
+}
+
+.input-group {
+  width: 306px;
+  height: 44px;
+  margin-top: 40px;
+  border: 1px solid var(--primary-pink-color);
+  border-radius: 5px;
+
+}
+
+.btn {
+  width: 85.6px;
+  height: 44px;
+  background: var(--primary-pink-color);
+  font-weight: bold;  
+}
+
+.hairBlock {
+  margin-top: 294px;
+}
+
+.hearts {
+  margin-top: 30px;
+  list-style: none;
+  font-weight: bold;
+  height: 360px;
+  padding-left: 44px;
+  padding-top: 5px;
+  width: auto;
+  display: inline-block;
+  line-height: 40px;
+  }
+
+ .hearts li {
+  text-align: left !important;
+  padding-left: 44px;
+  padding-top: 5px;
+ }
+
+.heartLi {
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.otherBrands {
+  margin-top: 50px;
+}
+
+.humNutrition {
+  position: absolute;
+  z-index: 10;
+  color: var(--primary-pink-color);
+  font-weight: bold;
+  width: 210px;
+  height: 30px;
+  margin-left: 870px;
+  margin-top: 104px;
+  font-size: 1.35rem;
+}
+
+.otherBrandsText {
+  position: absolute;
+  z-index: 10;
+  color: #000;
+  font-weight: bold;
+  width: 210px;
+  height: 30px;
+  margin-left: 1080px;
+  margin-top: 104px;
+  font-size: 1.3rem;
+}
+
+.container1 {
+  margin-top: 480px;
+}
+
+.fa-star, .pinkSymbol {
+  color: var(--primary-pink-color);
+}
+
+.reviewText {
+  margin-left: 55px;
+}
+
+.reviewText1 {
+  margin-left: 400px;
+}
+
+.rowGrid {
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 50px;
+}
+
+.raveImg {
+  margin-top: 43px;
+}
+
+.howItWorks {
+  margin-top: 130px;
+}
+
+.supFacts {
+  margin-top: 58px;
+}
+
+.vegan {
+  margin-top: 28px;
+}
+
+.asSeenIn {
+  margin-top: 104px;
+}
+
+.magazineImg {
+  margin-top: 15px;
+  margin-bottom: 65px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 15px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 40px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .fa {
+  color: #fff;
+}
+
+.note-footer {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  max-width: 968px;
+}
+
+.note-footer a {
+  color: var(--primary-pink-color);
+}
+
+.note-footer span a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-pink-color);
 }
