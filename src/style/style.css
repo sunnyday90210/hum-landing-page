@@ -5,11 +5,14 @@
   --primary-pink-color: #ff227a;
 }
 
-.bgImage {
-  position: absolute !important;
-  margin-left: -300px;
-  margin-top: -1px;
-  z-index: -10;
+
+body {
+  background-image: url("../img/hsh-bg.png");
+  background-position: -304px 30px;
+  background-size: cover contain;
+  background-repeat: no-repeat;
+  overflow-x: hidden !important;
+  overflow-y: scroll; 
 }
 
 .container-fluid {
@@ -202,6 +205,7 @@ input {
 
 .container1 {
   margin-top: 480px;
+  width: auto;
 }
 
 .fa-star, .pinkSymbol {
